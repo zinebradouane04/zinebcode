@@ -1,0 +1,90 @@
+# zinebcode
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+<body>
+
+<h2>Formulaire:</h2>
+<html lang="en">
+  
+
+<body>
+
+<div class="milieu">
+
+<div>
+  
+    <label for="fname"> Name:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Enter your name..">
+
+    <label for="lname">Email:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Enter your Email..">
+    
+     <label for="lname">password:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Enter your password..">
+    
+     <label for="lname">Phone Number:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Enter your phone number..">
+   <div class="row-">
+    <div class="col-50">
+      <label for="Address">Address</label>
+    </div>
+    <div class="col-100">
+    <textarea id="Address" name="Address" placeholder="enter your address.." style="height:200px" aria-required=""></textarea>
+    </div>
+    </div>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="country" disabled selected> --select country--</option>
+      <option value="Morocco " >Morocco  </option>
+      <option value="Ireland  ">Ireland</option>
+      <option value="Saudi Arabia">Saudi Arabia</option>
+    </select>
+  
+    
+    <p><strong>Select your favorite colors:</strong> </p>
+
+
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Red">
+  <label for="vehicle1"> Red</label><br>
+  
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Green">
+  <label for="vehicle2"> Green</label><br>
+  
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Blue">
+  <label for="vehicle3"> Blue</label><br><br>
+
+</form> 
+<strong>What is your gender?</strong> <br>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Male</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Female</label><br>
+  
+  
+</form> 
+
+
+    <label for="datemax">Birthdate  :</label><br>
+    <input type="date" id="datemax" name="datemax" max="2023-12-31"><br><br>
+
+
+    
+        <label for="files">Select files:</label>
+        <input type="file" id="files" name="files" multiple><br><br>
+        <input type="submit" value="Submit">
+      </form>
+ </div>
+</body>
+</html>
